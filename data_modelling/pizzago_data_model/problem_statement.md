@@ -26,8 +26,8 @@ Your dimensional model should support the following analytics use cases:
 
 `orders`
 
-| Column Name | Data Type   ||
-| :--------    | --------     | :-------- |
+| Column Name | Data Type   |
+| :--------    | --------   |
 | order_id            |	   INT       |
 | customer_id         |	   INT       |
 | outlet_id           |	   INT       |
@@ -37,3 +37,61 @@ Your dimensional model should support the following analytics use cases:
 | delivery_agent_id   |	   INT       |
 | status	          |    VARCHAR   |
 
+
+`order_items`
+
+| Column Name | Data Type   |
+| :--------   | --------    |
+| order_id    |	 INT     |
+| item_id     |	 INT     |
+| quantity    |	 INT     |
+| item_price  |  DECIMAL |
+
+`menu_items`
+
+| Column Name | Data Type  |
+| :--------   | --------   |
+| item_id	  |  INT       |
+| item_name	  |  VARCHAR   |
+| category	  |  VARCHAR   |
+
+`customers`
+
+| Column Name     | Data Type   |
+| :--------       | --------    |
+| customer_id     |	  INT       |
+| name            |	  VARCHAR   |
+| city	          |   VARCHAR   |
+| membership_tier |	  VARCHAR   |
+
+`delivery_agents` 
+
+| Column Name  | Data Type         |
+| :--------    | --------          |
+|  delivery_agent_id  |	  INT      |
+|  agent_name	      |   VARCHAR  |
+|  phone	          |   VARCHAR  |
+
+`outlets`
+
+| Column Name | Data Type   |
+| :--------    | --------   |
+|  outlet_id    |  INT      |
+|  outlet_name	|  VARCHAR  |
+|  city	        |  VARCHAR  |
+
+
+## Task
+Design a dimensional model using a Star Schema (or Snowflake if appropriate). Your goal is to create a model optimized for analytics, not transactional updates.
+
+Answer the following:
+
+ 1. What are the fact table(s)? What is the grain of each fact table?
+
+ 2. What are the dimension tables and what attributes would they include?
+
+ 3. How will you model the order_type, order_date, and membership_tier?
+
+ 4. Would you consider any degenerate dimensions?
+
+ 5. Suggest two aggregate tables or views that could be used to speed up reporting
