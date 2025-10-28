@@ -1,0 +1,294 @@
+<mxfile host="65bd71144e">
+    <diagram id="6ziI0QKnsHAgElXPbqeY" name="relationship_notations">
+        <mxGraphModel dx="1198" dy="441" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Employee" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Department" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="40" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="fontSize=12;html=1;endArrow=ERone;endFill=1;startArrow=ERone;startFill=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="140" y="59.5" as="sourcePoint"/>
+                        <mxPoint x="300" y="59.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Diagrams:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="44" y="10" width="73" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Employee" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="107" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Department" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="109" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;" edge="1" parent="1" source="29" target="28">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="289" y="127" as="sourcePoint"/>
+                        <mxPoint x="162" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="Employee" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="170" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Department" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="170" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="fontSize=12;html=1;endArrow=ERone;endFill=1;startArrow=ERoneToMany;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="33" target="34">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="157" y="194" as="sourcePoint"/>
+                        <mxPoint x="352" y="193.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="Employee" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="229" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Department" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="229" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="fontSize=12;html=1;endArrow=ERone;endFill=1;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="41">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="140" y="248.5" as="sourcePoint"/>
+                        <mxPoint x="355" y="248.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="Employee" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="293" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Department" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="293" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="46" target="47">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="140" y="311.5" as="sourcePoint"/>
+                        <mxPoint x="355" y="311" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="Employee" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="352" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="Department" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="354" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="fontSize=12;html=1;endArrow=ERmany;endFill=0;startArrow=ERmany;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="85" target="86">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="145" y="371.5" as="sourcePoint"/>
+                        <mxPoint x="340" y="372" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="&lt;b&gt;Relationships Notation:&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="524" width="153" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="41" y="575" width="640.4166870117188" height="342" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="group" vertex="1" connectable="0" parent="95">
+                    <mxGeometry width="640.4166870117188" height="307.3333740234375" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="32" vertex="1">
+                    <mxGeometry width="640.4166870117188" height="550.3333740234375" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="4" vertex="1">
+                    <mxGeometry width="640.4166870117188" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;Symbol&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0" parent="5" vertex="1">
+                    <mxGeometry width="220" height="40" as="geometry">
+                        <mxRectangle width="220" height="40" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;Relationship&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=0" parent="5" vertex="1">
+                    <mxGeometry x="220" width="100" height="40" as="geometry">
+                        <mxRectangle width="100" height="40" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="&lt;b&gt;Left-Right Entity Relationship&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5" vertex="1">
+                    <mxGeometry x="320" width="159" height="40" as="geometry">
+                        <mxRectangle width="159" height="40" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;Right-Left Entity Relationship&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="5" vertex="1">
+                    <mxGeometry x="479" width="161" height="40" as="geometry">
+                        <mxRectangle width="161" height="40" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="4" vertex="1">
+                    <mxGeometry y="40" width="640.4166870117188" height="119" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="10" vertex="1">
+                    <mxGeometry width="220" height="119" as="geometry">
+                        <mxRectangle width="220" height="119" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="One to One" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="10" vertex="1">
+                    <mxGeometry x="220" width="100" height="119" as="geometry">
+                        <mxRectangle width="100" height="119" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Employee --&amp;gt; Department&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Each Employee must be working in one department&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="10" vertex="1">
+                    <mxGeometry x="320" width="159" height="119" as="geometry">
+                        <mxRectangle width="159" height="119" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Department --&amp;gt; Employee&lt;br&gt;Each Department must have one Employee working" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="10" vertex="1">
+                    <mxGeometry x="479" width="161" height="119" as="geometry">
+                        <mxRectangle width="161" height="119" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="4" vertex="1">
+                    <mxGeometry y="159" width="640.4166870117188" height="67" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="15" vertex="1">
+                    <mxGeometry width="220" height="67" as="geometry">
+                        <mxRectangle width="220" height="67" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Zero or One to One" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="15" vertex="1">
+                    <mxGeometry x="220" width="100" height="67" as="geometry">
+                        <mxRectangle width="100" height="67" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Employee --&amp;gt; Department Each Employee must be working in one department" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="15" vertex="1">
+                    <mxGeometry x="320" width="159" height="67" as="geometry">
+                        <mxRectangle width="159" height="67" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Department --&amp;gt; Employee&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Each Department has&amp;nbsp; Zero or one Employee working&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="15" vertex="1">
+                    <mxGeometry x="479" width="161" height="67" as="geometry">
+                        <mxRectangle width="161" height="67" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="4" vertex="1">
+                    <mxGeometry y="226" width="640.4166870117188" height="81" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;span style=&quot;font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22fontSize%3D12%3Bhtml%3D1%3BendArrow%3DERone%3BendFill%3D1%3BstartArrow%3DERoneToMany%3BstartFill%3D0%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%22100%22%20height%3D%22100%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22140%22%20y%3D%22190%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22355%22%20y%3D%22190%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="20" vertex="1">
+                    <mxGeometry width="220" height="81" as="geometry">
+                        <mxRectangle width="220" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="One or More to One" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="20" vertex="1">
+                    <mxGeometry x="220" width="100" height="81" as="geometry">
+                        <mxRectangle width="100" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Employee --&amp;gt; Department&lt;div&gt;Each Employee belong to one Department&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="20" vertex="1">
+                    <mxGeometry x="320" width="159" height="81" as="geometry">
+                        <mxRectangle width="159" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="&lt;div&gt;Department --&amp;gt; Employee&lt;/div&gt;Each Department can have one or more Employee" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="20" vertex="1">
+                    <mxGeometry x="479" width="161" height="81" as="geometry">
+                        <mxRectangle width="161" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4">
+                    <mxGeometry y="307" width="640.4166870117188" height="81" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="36">
+                    <mxGeometry width="220" height="81" as="geometry">
+                        <mxRectangle width="220" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="Zero,One or more to One" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="36">
+                    <mxGeometry x="220" width="100" height="81" as="geometry">
+                        <mxRectangle width="100" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="Employee --&amp;gt; Department&lt;div&gt;Each Employee belong to one Department&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="36">
+                    <mxGeometry x="320" width="159" height="81" as="geometry">
+                        <mxRectangle width="159" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="&lt;div&gt;Department --&amp;gt; Employee&lt;/div&gt;Each Department can have one, zero or more Employee" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="36">
+                    <mxGeometry x="479" width="161" height="81" as="geometry">
+                        <mxRectangle width="161" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4">
+                    <mxGeometry y="388" width="640.4166870117188" height="81" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="79">
+                    <mxGeometry width="220" height="81" as="geometry">
+                        <mxRectangle width="220" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="Zero,One or more to One or Zero" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="79">
+                    <mxGeometry x="220" width="100" height="81" as="geometry">
+                        <mxRectangle width="100" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="Employee --&amp;gt; Department&lt;div&gt;Each Employee may be belong to one Department&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="79">
+                    <mxGeometry x="320" width="159" height="81" as="geometry">
+                        <mxRectangle width="159" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="&lt;div&gt;Department --&amp;gt; Employee&lt;/div&gt;Each Department can have one, zero or more Employee" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="79">
+                    <mxGeometry x="479" width="161" height="81" as="geometry">
+                        <mxRectangle width="161" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4">
+                    <mxGeometry y="469" width="640.4166870117188" height="81" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="89">
+                    <mxGeometry width="220" height="81" as="geometry">
+                        <mxRectangle width="220" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="Many to Many" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="89">
+                    <mxGeometry x="220" width="100" height="81" as="geometry">
+                        <mxRectangle width="100" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="Employee --&amp;gt; Department&lt;div&gt;Each Employee may be belong to one or more Department&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="89">
+                    <mxGeometry x="320" width="159" height="81" as="geometry">
+                        <mxRectangle width="159" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="&lt;div&gt;Department --&amp;gt; Employee&lt;/div&gt;Each Department can have more Employee" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="89">
+                    <mxGeometry x="479" width="161" height="81" as="geometry">
+                        <mxRectangle width="161" height="81" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="fontSize=12;html=1;endArrow=ERone;endFill=1;startArrow=ERone;startFill=0;" parent="32" edge="1">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="20" y="88" as="sourcePoint"/>
+                        <mxPoint x="180" y="88" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=1;startArrow=ERone;startFill=0;" edge="1" parent="32">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="195" y="189" as="sourcePoint"/>
+                        <mxPoint x="19" y="187" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="" style="fontSize=12;html=1;endArrow=ERmany;endFill=0;startArrow=ERmany;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="32">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="48" y="514" as="sourcePoint"/>
+                        <mxPoint x="129" y="516" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="32">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="52" y="428" as="sourcePoint"/>
+                        <mxPoint x="148" y="428" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="fontSize=12;html=1;endArrow=ERone;endFill=1;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="32">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="51" y="262" as="sourcePoint"/>
+                        <mxPoint x="161" y="262" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="fontSize=12;html=1;endArrow=ERone;endFill=1;startArrow=ERoneToMany;startFill=0;" edge="1" parent="95">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="29" y="342" as="sourcePoint"/>
+                        <mxPoint x="164" y="342" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
